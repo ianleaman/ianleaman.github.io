@@ -1,0 +1,52 @@
+body {
+	margin: 0;
+}
+
+#wrapper {
+	max-width: 600px;
+	/* Subtract the padding from 100% to get everything to*/
+	width: calc(100% - 6em);
+}
+
+
+#nav-bar {
+
+	border-bottom: 1px solid grey;
+	padding-right: 3em;
+	padding-left: 3em;
+
+}
+
+.vertical-center {
+	position: fixed;
+	width:inherit;
+    /*height: 100%;*/
+    /*width: 100%;*/
+    top: 38%;
+}
+
+.content {
+	margin: 0 auto;
+	overflow: hidden;
+	width: 100%;
+
+}
+
+.site-title {
+	float: left;
+	line-height: 2em;
+}
+
+.site-nav {
+	float: right;
+	line-height: 2em;
+}
+
+/* Source of :not(:first-child) - Ming's Style Page*/
+.site-nav .page-link:not(:first-child) {
+	margin-left: 20px;
+}
+
+.site-nav img {
+	height: 1.5em;
+}
