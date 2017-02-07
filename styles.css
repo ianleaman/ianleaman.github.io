@@ -2,34 +2,53 @@ body {
 	margin: 0;
 }
 
-#wrapper {
-	/* Subtract the padding from 100% to get everything to*/
-	width: calc(100% - 6em);
+/* Resume */
+
+.resume-position {
+	padding-bottom: 2em;
 }
 
+.job-title {
+	font-weight: bold;
+}
 
-#nav-bar {
-	border-bottom: 1px solid grey;
-	padding-right: 3em;
-	padding-left: 3em;
+.job-short {
+	font-style: italic; 
+}
 
+.job-description
+/* Content */
+
+#profile {
+	height: auto;
+	width: 70%;
+	padding: 2em;
+	border: 1px;
 }
 
 .vertical-center {
 	position: fixed;
 	width:inherit;
-    /*height: 100%;*/
-    /*width: 100%;*/
     top: 45%;
 }
 
 .content {
 	margin: 0 auto;
 	overflow: hidden;
-	/*width: 100%;*/
 	max-width: 600px;
-
 }
+
+.left {
+	float: left;
+	width: 50%;
+}
+
+.right {
+	float: right;
+	width: 50%;
+}
+
+/* Site Title*/
 
 .site-title {
 	float: left;
@@ -45,6 +64,20 @@ body {
 .site-nav .page-link:not(:first-child) {
 	margin-left: 20px;
 }
+
+
+#wrapper {
+	/* Subtract the padding from 100% to get everything to*/
+	/*width: calc(100% - 6em);*/
+	width: 100%
+}
+
+
+#nav-bar {
+	border-bottom: 1px solid grey;
+}
+
+/* Footer */
 
 #footer {
 	bottom: 5%;
