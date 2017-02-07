@@ -1,0 +1,1 @@
+This is a basic resume website. It contains 3 pages, the home page, a short bio, and a list of my experiences. It should look (relativly) good on most screen sizes. The primary content has a min width of 600px and will never exceed that length.
